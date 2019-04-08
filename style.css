@@ -1,0 +1,162 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* search box*/
+.search-box{
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #2f3640;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+.form-inline:hover > .search-txt{
+	width: 240px;
+	padding: 0 6px;
+}
+
+.form-inline:hover > .search-btn{
+	background: white;
+	color: #9b59b6;
+}
+
+.search-btn{
+	color: #fff;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #f39c12;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+}
+
+.search-txt{
+	border:none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+}
+
+/*dropdown animation */
+@media (min-width: 992px) {
+  .animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+  100% {
+    transform:translateY(0rem);
+    opacity: 1;
+  }
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+  }
+  0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+  }
+}
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}
+
+/* footer */
+.footer1 {
+    display: flex;
+    margin-top: 170px;
+    height: 280px;
+    color: white;
+    background-color: #4A117A
+}
+
+.footer1 .container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.footer .container div {
+    width: 50%;
+}
+
+.footer1 input {
+    width: 325px;
+    height: 38px;
+    border-radius: 7px;
+    background-color: white;
+    border: none;
+    padding: 5px;
+    color: #757575
+}
+
+.footer1 button {
+    height: 48px;
+    background-color: #17A386;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    width: 105px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* footer 2 */
+.footer2 {
+    background-color: #142d91;
+    color: white;
+    height: 80px;
+}
+
+.footer2 input::placeholder {
+    color: #757575;
+}
+
+.footer2 .container span {
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+
+.footer2 .container span p {
+    align-self: center;
+}
