@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="olx.png" class="rounded">
+    <title>OLX</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="olxhome.css">
+    
+</head>
+
+<header>
+    <div class="main-wrapper container">
+        <div class="home">
+            <nav class="navbar navbar-light" style="background-color:#4A117A;">
+                <a class="navbar-brand" href="#">
+                    <svg width="44px" height="44px" viewBox="-1 -1 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="">
+                        <g id="logo">
+                            <circle id="Oval-9" stroke="" fill="#FFFFFF" cx="21" cy="21" r="21"></circle>
+                            <path d="M37.1944562,14.3984977 C37.1944562,14.3984977 37.3752857,14.0963318 37.3743641,13.7161014 C37.3743641,13.3171613 37.1180507,12.8165622 36.406576,12.8165622 C35.5194793,12.8165622 34.9362995,13.4555484 34.9362995,13.4555484 L31.3691567,17.5561935 C31.3691567,17.5561935 29.576576,14.8825069 28.9559309,13.9331982 C28.3417834,13.0652719 27.2933502,13.0957327 27.2933502,13.0957327 C27.2933502,13.0957327 26.774318,13.0458249 26.3007235,13.4245346 C25.6826129,13.959788 25.8912765,14.8017235 25.8912765,14.8017235 L28.738788,20.6580369 L24.6319217,25.2984055 C23.9770829,26.3418618 24.4272212,27.3146267 24.4272212,27.3146267 L25.5128894,29.0702488 C25.5128894,29.0702488 25.8478664,29.6596037 26.3751935,29.6596037 C26.9025207,29.6596037 27.2127051,29.1074839 27.2127051,29.1074839 L30.5316452,24.200341 C30.5316452,24.200341 32.8518756,28.4374839 33.3915991,29.4610783 C33.7432581,30.098682 34.6499862,30.3450415 35.1224286,30.2241659 C35.5948249,30.1032442 37.2874977,29.6534286 37.8024286,29.4921382 C38.3325207,29.3220922 38.4910461,28.8903871 38.4910461,28.5429677 C38.4910461,28.2699724 38.3359309,28.0156406 38.3359309,28.0156406 L33.1992488,20.2982212 L37.1944562,14.3984977 Z" id="Fill-3" fill="#F37820"></path>
+                            <path d="M25.1158341,21.5782535 C25.1158341,21.1290829 24.5672166,20.8999585 24.007447,20.8999585 L21.0792903,20.8999585 C20.2348664,20.8999585 20.1694286,20.4007419 20.1694286,19.7998664 L20.1694286,12.1072396 C20.1694286,11.5973779 19.8137143,10.9409724 18.9865714,10.9409724 L17.3777235,10.9409724 C16.8927926,10.9409724 16.3438065,11.4917558 16.3438065,12.1899585 C16.3438065,12.7140138 16.3479078,21.4293594 16.3479078,22.9017097 C16.3479078,24.0088986 17.1326083,24.4484839 17.828553,24.4484839 L23.8916406,24.4484839 C24.9478618,24.4484839 25.1158341,23.820235 25.1158341,23.5138295 L25.1158341,21.5782535 Z" id="Fill-5" fill="#A7B437"></path>
+                            <path d="M8.88693088,26.7149263 C6.84425806,26.7149263 5.71891244,23.833682 5.71891244,21.3466313 C5.71891244,17.9126221 7.37029493,15.8873687 8.81250691,15.8873687 C10.5963318,15.8873687 12.0136129,18.3532212 12.0136129,21.297 C12.0136129,23.9075069 10.7728756,26.7149263 8.88693088,26.7149263 M8.88693088,13.33147 C5.10333641,13.33147 2.07937327,16.8386129 2.07937327,21.4045576 C2.07937327,25.8981521 5.42845161,29.2956636 8.81250691,29.2956636 C12.9563779,29.2956636 15.6283134,25.2498111 15.6283134,21.3962627 C15.6283134,16.5994885 12.3649032,13.33147 8.88693088,13.33147" id="Fill-7" fill="#4F2D7E"></path>
+                        </g>
+                    </svg>
+                </a>
+                <ul class="nav nav-pills float-right">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="btn1" href="">Sell Your Item Now
+                            <span class="sr-only">(current)</span>                                    
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="btn2" href="">
+                            <img class="img-fluid" width="14" height="13" src="user.png">Login
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="home">
+            <img src="assets/home.png" class="img-fluid" alt="" usemap="#Map">
+            <map name="Map" id="Map">
+                <area shape="rect" coords="729,250,1095,322" href="https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsvqaB__AB3r5kCxrPyI1XkK0Sy8Ad9YyxblzjRG98_lDhehcU2CeTHtg4xeiorYjitJjmlJmcGR2OW9PsQas0GSMgL8oUrtoXjtAeNou6v3hK-O8F5BZcFEIPnerplpbjrKcNXDFwF4xy-cbnFz8syo_hw62x_bN4yICJ9QCSt-QoWW7OXAtbSu1VGLMkqH0mX0ax2haGLeWflKDIXSJcJrNiS6hYo3UfUyUlAcAmpckC4an3GbWiM1jA6ze8LdNx9RtCb8bTae32s8&amp;sai=AMfl-YQAVdreTgQbNDgnAd6QA-gWM6DupjqrxrjEMrcjSt363O-g5ODKEiiGGt9ceiW9FRsGn2dsZKwO3lFd4aI9NqRCs07FjQ8S8OCzfEOGyn8s3Egdqtldg2NW_1tJ0TGn8Dk-ew&amp;sig=Cg0ArKJSzK3E6JKE0WZjEAE&amp;urlfix=1&amp;adurl=https://www.olx.ph/ad/manage?utm_source=Homepage&amp;utm_medium=HeroBanner&amp;utm_campaign=Limitless" target="_blank">
+            </map>
+        </div>
+        <div class="home">
+            <div class="row" style="background: #4A117A; margin-left: inherit; margin-right: inherit; padding-top:10px;">
+                <div class="col-md-1"></div>
+                <div class="col-md-5">
+                    <label class="sr-only" for="inlineFormInputGroupUsername2">Search</label>
+                    <div class="input-group mb-2 mr-sm-2">
+                        <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        </div>
+                        <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Search">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label class="sr-only" for="inlineFormInputGroupUsername2">Search</label>
+                    <div class="input-group mb-2 mr-sm-2">
+                        <div class="input-group-prepend">
+                        <div class="input-group-text">
+                                <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        </div>
+                        <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Location">
+                    </div>
+                </div>
+                <div class="col-md-1">
+                    <button type="button" class="btn btn-light">Search</button>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+<body>
+    <div class="main-wrapper container">
+        <div class="featured-container row"> 
+            <div class="featured-wrapper col-md-12">
+            <!-- isi sini untuk -->
+                <div class="featured-cat col-md-3">
+                    <div class="featured-cat-title" >
+                        <img src="assets/estate.PNG" class="img-fluid" alt="">
+                        <div class="main-menu">
+                        <a href="" style="color:#53B684">
+                            <span class="span-cat">Real Estate</span>                            
+                            <span class="see-all">
+                                <span class="">View all</span>
+                            </span>
+                        </a>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <a href="">For Rent</a>
+                        <a href="">For Sale</a>
+                        <a href="">Forclosed</a><br>
+                        <a href="">Developments</a>
+                        <a href="">House For Sale</a><br>
+                        <a href="">Condo For Rent</a>
+                        <a href="">Room For Rent</a>
+                    </div>
+                </div>
+                <div class="featured-cat col-md-3">
+                    <div class="featured-cat-title">
+                        <img src="assets/cars.png" class="img-fluid" alt="">
+                        <div class="main-menu">
+                            <a href="" style="color:#ff7900">
+                                <span class="span-cat">Cars and Automotives</span>
+                                <span class="see-all">
+                                    <span class="label">View all</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <a href="">Cars, SUVs, AUVs, and Pick-ups</a><br>
+                        <a href="">Automotive Parts and Accessories</a><br>
+                        <a href="">Buses</a><br>
+                        <a href="">Boats, Aircraft, and Recreational Vehicles</a>
+                    </div>
+                </div>
+                <div class="featured-cat col-md-3">
+                    <div class="featured-cat-title">
+                        <img src="assets/phones.PNG" class="img-fluid" width="50" height="50" alt="">
+                        <div class="main-menu">
+                            <a href="" style="color:#B63E7E">
+                                <span class="span-cat">Mobile Phones and Tablets</span>
+                                <span class="see-all">
+                                    <span class="label">View all</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <a href="">Mobile Phones and Smartphones</a>
+                        <a href="">Accessories for Mobile Phones and Tablets</a>
+                        <a href="">Tablets</a>
+                        <br>
+                    </div>
+                </div>
+                <div class="featured-cat col-md-3">
+                    <div class="featured-cat-title">
+                        <img src="assets/services.png" class="img-fluid" width="50" height="50" alt="">
+                        <div class="main-menu">
+                            <a href="" style="color:#3E64AC">
+                                <span class="span-cat">Services</span>
+                                <span class="see-all">
+                                    <span class="label">View all</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <a href="">Rental Services</a><br>
+                        <a href="">Repairs and Maintenance</a><br>
+                        <a href="">Events, Planning, Arts, and Entertainment</a><br>
+                        <a href="">Food and Related Products</a><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="featured-container row">
+            <div class="featured-wrapper col-md-12">
+                <div class="featured-menu col-md-2">
+                    <button type="button" class="btn btn-outline-light border" style="width: 190px; height: 145px;">
+                        <img src="assets/1.png">
+                        <p style="color: #0076be;">OLX and Carousell</p>
+                    </button>
+                </div>
+                <div class="featured-menu col-md-2">
+                    <button type="button" class="btn btn-outline-light border" style="width: 190px; height: 145px;">
+                        <img src="assets/computer.PNG">
+                        <p style="color: #0076be;">Computers</p>
+                    </button>
+                </div>
+                <div class="featured-menu col-md-2">
+                    <button type="button" class="btn btn-outline-light border" style="width: 190px; height: 145px;">
+                        <img src="assets/consumer.PNG">
+                        <p style="color: #0076be;">Consumer Electronics</p>
+                    </button>
+                </div>
+                <div class="featured-menu col-md-2">
+                    <button type="button" class="btn btn-outline-light border" style="width: 190px; height: 145px;">
+                        <img src="assets/wholesale.PNG">
+                        <p style="color: #0076be;">Wholesale</p>
+                    </button>
+                </div>
+                <div class="featured-menu col-md-2">
+                    <button type="button" class="btn btn-outline-light border" style="width: 190px; height: 145px;">
+                        <img src="assets/furniture.png">
+                        <p style="color: #0076be;">Home and Furniture</p>
+                    </button>
+                </div>
+                <div class="featured-menu col-md-2">
+                    <button type="button" class="btn btn-outline-light border" style="width: 190px; height: 145px;">
+                        <img src="assets/Beauty.PNG">
+                        <p style="color: #0076be;">Beauty, Health, and Grocery</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="featured-container row">
+            <div class="featured-wrapper col-md-12">
+                <div class="featured-menu col-md-2">
+                    <button type="button" class="btn btn-outline-light border" style="width: 190px; height: 145px;">
+                        <img src="assets/fashion.PNG">
+                        <p style="color: #0076be;">Clothing and Accessories</p>
+                    </button>
+                </div>
+                <div class="featured-menu col-md-2">
+                    <button type="button" class="btn btn-outline-light border" style="width: 190px; height: 145px;">
+                        <img src="assets/sports.PNG">
+                        <p style="color: #0076be;">Books, Sports, and Hobbies</p>
+                    </button>
+                </div>
+                <div class="featured-menu col-md-2">
+                    <button type="button" class="btn btn-outline-light border" style="width: 190px; height: 145px;">
+                        <img src="assets/baby.PNG">
+                        <p style="color: #0076be;">Baby Stuff and Toys</p>
+                    </button>
+                </div>
+                <div class="featured-menu col-md-2">
+                    <button type="button" class="btn btn-outline-light border" style="width: 190px; height: 145px;">
+                        <img src="assets/motorcycle.PNG">
+                        <p style="color: #0076be;">Motorcycles and Scooters</p>
+                    </button>
+                </div>
+                <div class="featured-menu col-md-2">
+                    <button type="button" class="btn btn-outline-light border" style="width: 190px; height: 145px;">
+                        <img src="assets/jobs.PNG">
+                        <p style="color: #0076be;">Jobs</p>
+                    </button>
+                </div>
+                <div class="featured-menu col-md-2">
+                    <button type="button" class="btn btn-outline-light border" style="width: 190px; height: 145px;">
+                        <img src="assets/bussiness.PNG">
+                        <p style="color: #0076be;">Business and Earning Opportunities</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="featured-container row">
+            <div class="featured-wrapper col-md-12">
+                <div class="featured-menu col-md-2">
+                    <button type="button" class="btn btn-outline-light border" style="width: 190px; height: 145px;">
+                        <img src="assets/construction.PNG">
+                        <p style="color: #0076be;">Construction and Farming</p>
+                    </button>
+                </div>
+                <div class="featured-menu col-md-2">
+                    <button type="button" class="btn btn-outline-light border" style="width: 190px; height: 145px;">
+                        <img src="assets/accessories.PNG">
+                        <p style="color: #0076be;">Accessories for Pets</p>
+                    </button>
+                </div>
+                <div class="featured-menu col-md-2">
+                    <button type="button" class="btn btn-outline-light border" style="width: 190px; height: 145px;">
+                        <img src="assets/trucks.png">
+                        <p style="color: #0076be;">Heavy Machinery and Trucks</p>
+                    </button>
+                </div>
+                <div class="featured-menu col-md-2">
+                    <button type="button" class="btn btn-outline-light border" style="width: 190px; height: 145px;">
+                        <img src="assets/cars.png">
+                        <p style="color: #0076be;">Cars and Automotives</p>
+                    </button>
+                </div>
+                <div class="featured-menu col-md-2"></div>
+                <div class="featured-menu col-md-2"></div>
+            </div>
+        </div>
+        <div class="text-center view all">
+            <a class="btn btn-light border" href="#" role="button" style="margin-top:10px;">View All Categories</a>
+        </div>
+    </div>
+</body>
+
+<footer style="background: #D9D9D9;">
+    <div class="main-wrapper">
+        <div class="footer">
+            <div class="row" style="height: 2px; width: 1364px;">
+                <div class="col-md-4" style="background: #628;"></div>
+                <div class="col-md-4" style="background: #aab20a;"></div>
+                <div class="col-md-4" style="background: #ff7900;"></div>
+            </div>
+            <div class="row" style="padding-top: 50px; margin-left: 90px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/get-it-on-google-play.png" style="width: 135px; height: 40px;">
+                            <img src="assets/download-on-the-app-store.png" style="width: 135px; height: 40px;">
+                        </div>
+                        <div class="col-md-6">
+                            <button type="button" class="btn btn-warning" style="background-color:#FF7700; float:right; color: #ffffff">Sell Your Item Now</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="group-name">OLX Group</div>
+                            <div class="links">
+                                <span class="title">OLX:</span>
+                                <a href="" target="_blank">Bahrain</a>
+                                <a href="" target="_blank">Indonesia</a>
+                                <a href="" target="_blank">Kuwait</a>
+                                <a href="" target="_blank">Lebanon</a>
+                                <a href="" target="_blank">Oman</a>
+                                <a href="" target="_blank">Philippines</a>
+                                <a href="" target="_blank">Qatar</a>
+                                <a href="" target="_blank">Saudi Arabia</a>
+                            </div>
+                            <div>
+                                <span class="title">dubizzle:</span>
+                                <a href="" target="_blank">Dubai</a>
+                                <a href="" target="_blank">Abu Dhabi</a>
+                                <a href="" target="_blank">Ras al Khaimah</a>
+                                <a href="" target="_blank">Sharjah</a>
+                                <a href="" target="_blank">Fujairah</a>
+                                <a href="" target="_blank">Ajman</a>
+                                <a href="" target="_blank">Umm al Quwain</a>
+                                <a href="" target="_blank">Al Ain</a>
+                            </div>
+                            <div>
+                                <span class="title">Property24:</span>
+                                <a href="" target="_blank">Botswana</a>
+                                <a href="" target="_blank">Kenya</a>
+                                <a href="" target="_blank">Namibia</a>
+                                <a href="" target="_blank">Nigeria</a>
+                                <a href="" target="_blank">Philippines</a>
+                                <a href="" target="_blank">South Africa</a>
+                                <a href="" target="_blank">Zambia</a>
+                                <a href="" target="_blank">Zimbabwe</a>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="copyright">
+                                <p><i class="far fa-copyright"></i> 2019 OLX Philippines</p>
+                                <a href="" target="_blank">Corporate</a>
+                                <a href="" target="_blank">About OLX</a>
+                                <a href="" target="_blank">Careers</a>
+                                <a href="" target="_blank">Privacy Policy</a>
+                                <a href="" target="_blank">Blog</a>
+                                <a href="" target="_blank">South Africa</a>
+                                <a href="" target="_blank">view ads in OLX</a>
+                                <a href="" target="_blank">Help Center</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>
