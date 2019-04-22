@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="olx.png" class="rounded">
+	<title>Pasang Iklan</title>
+</head> 
+<link rel="stylesheet" type="text/css" href="Asset/css/formiklan.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+<body>
+  <div class="content">
+    
+    
+          <div>
+                <a href="#"><img src="Asset/img/logo.jpg"width="70px"class="logo"></a>    
+          </div>
+                <form action=""method="post" class ="typeform">
+                	<div class="form-group">
+                    <label for="exampleFormControlInput1">Judul Iklan</label>
+                    <input type="email" name="data[juduliklan]"class="form-control" id="exampleFormControlInput1" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlSelect1">Provinsi</label>
+                    <select class="form-control" id="exampleFormControlSelect1"name="data[sub_region_id]" required>
+                       <option value="" selected><!--$d->nama_provinsi--></option>
+                       <!--for each jgn lupa-->
+                       <option value=""> <!--c->nama_provinsi--></option>
+                            
+                    </select>
+                  </div>
+                   <div class="form-group">
+                    <label for="exampleFormControlSelect1">Kota</label>
+                    <select class="form-control" id="exampleFormControlSelect1"name="data[sub_region_id]" required>
+                       <option value="" selected><!--$d->nama_kota--></option>
+                       <!--for each jgn lupa-->
+                       <option value=""> <!--c->nama_kota--></option>
+                            
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlSelect1">Kategori</label>
+                    <select class="form-control" id="exampleFormControlSelect1"name="data[sub_region_id]" required>
+                       <option value="" selected><!--$d->nama_kategori--></option>
+                       <!--for each jgn lupa-->
+                       <option value=""> <!--c->nama_kategori--></option>
+                            
+                    </select>
+                  </div>
+                  <div>
+                    <label>Image Upload </label>
+                    <input type="file" name="fileToUpload" id="fileToUpload" class="fileUpload btn btn-primary"required>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Deskripsi Iklan</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name ="data[deskription]"required></textarea>
+                  </div>
+                  <div class="btn-right">
+                    <button> Submit</button>
+                  </div>
+                </form>
+             
+      </div>
+</body>
+<footer style="background: #D9D9D9;">
+    <div class="footer">
+        <div class="row" style="height: 2px; width: 1364px;">
+            <div class="col-4" style="background: #628;"></div>
+            <div class="col-4" style="background: #aab20a;"></div>
+            <div class="col-4" style="background: #ff7900;"></div>
+        </div>
+        <div class="row" style="padding-top: 50px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                            <img src="Asset/img/get-it-on-google-play.png" style="width: 135px; height: 40px;">
+                            <img src="Asset/img/download-on-the-app-store.png" style="width: 135px; height: 40px;">
+                    </div>
+                    <div class="col-6">
+                        <button type="button" class="btn btn-warning" style="background-color:#FF7700; float:right; color: #ffffff">Sell Your Item Now</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="group-name">OLX Group</div>
+                        <div class="links">
+                            <span class="title">OLX:</span> 
+                        </div>
+                        
+                    </div>
+                    <div class="col-12">
+                        <div class="copyright">
+                            <p><i class="far fa-copyright"></i> 2019 OLX Philippines</p>
+                        </div>
+                        <div>
+                            <a href="" target="_blank">Corporate</a>
+                            <a href="" target="_blank">About OLX</a>
+                            <a href="" target="_blank">Careers</a>
+                            <a href="" target="_blank">Privacy Policy</a>
+                            <a href="" target="_blank">Blog</a>
+                            <a href="" target="_blank">South Africa</a>
+                            <a href="" target="_blank">view ads in OLX</a>
+                            <a href="" target="_blank">Help Center</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>
