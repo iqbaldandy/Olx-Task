@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin-top: -5px;
+}
+
+.main-wrapper {
+    padding:0;
+    max-width: 1200px;
+}
+
+.header { 
+    background-color: #4A117A;
+}
+
+.nav {
+    margin-bottom: -5px; 
+}
+
+#logo {
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+#btn1 {
+    background-color:#FF7700;
+    margin-right: 5px; 
+    line-height: 28px;
+}
+#btn1:hover {
+    background-color:#e65c00;
+    margin-right: 5px; 
+    line-height: 28px;
+}
+
+#btn2 {
+    width: 92px;
+    background-color:#ffffff;
+    color:#3e3e3e;
+    line-height: 28px;
+}
+#btn2:hover {
+    width: 92px;
+    background-color:#bfbfbf;
+    color:#3e3e3e;
+    line-height: 28px;
+}
+.main-menu {
+    width: 100%;
+}
+
+.span-cat {
+    margin-right: auto;
+}
+.see-all {
+    color: #0076be;
+    font-size: 12px;
+    font-weight: 400;
+    background: #f2f2f2;
+    border-radius: 64px;
+    padding: 4px 8px;
+    /* float: right; */
+    cursor: pointer;
+    /* width: 60px;
+    height: 20px; */
+}
+
+.see-all:hover {
+    color: #0076be;
+    font-size: 12px;
+    background: #aaaaaa;
+    border-radius: 64px;
+    text-decoration: none;
+    padding: 4px 8px;
+}
+
+.featured-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.featured-cat {
+    margin: 0 0 8px;
+    padding: 8px;
+}
+
+.featured-menu {
+    padding: 8px;
+}
+
+.list a:hover {
+    color: #0076be;
+    font-size: 12px;
+    background: #aaaaaa;
+    border-radius: 64px;
+    text-decoration: none;
+    padding: 4px 8px;
+}
+.featured-cat-title  {
+    box-shadow: 0 0 1px #a6a6a6;
+    display: flex;
+    justify-content: flex-start;
+    height: 66px;
+}
+
+.featured-cat-title a {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.featured-cat-title a:hover {
+    text-decoration: none;
+}
+
+.list {
+    box-shadow: 0 0 1px #a6a6a6;
+    box-sizing: inherit;
+    list-style-type: none;
+    padding: 8px;
+    height: 120px;
+}
+
+.list a{
+    color: #0076be;
+    font-size: 12px;
+    background: #f2f2f2;
+    border-radius: 64px;
+    padding: 4px 8px;
+}
+
+.index {
+    margin-top: -60px; 
+}
+
+footer{
+    margin-top: 160px;
+    padding: 0 0 64px;
+}
+
+.group-name {
+    margin-top: 35px;
+}
+.title {
+    font-weight: bold;
+}
+.copyright {
+    margin-top: 25px;
+}

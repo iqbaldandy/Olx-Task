@@ -1,0 +1,49 @@
+.header .platform-name, .packages .package .price, blockquote, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, pre, td, th, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fff;
+    font-family: Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.45;
+    color: #3e3e3e;
+}
+.baris {
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 32px;
+}
+.logo {
+	position: relative;
+	display: block; 
+	margin: auto;
+}
+.tengah {
+	padding-top: 10px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-weight: 400;
+
+}
+#extend{
+	display: block;
+	background:#f2f2f2;
+	color:#3e3e3e;
+	border-color: #d9d9d9;
+	font-size: 1rem;
+	width:100%;
+}
+.typeform{
+	padding-left: 380px;
+	padding-right: 380px;
+}
+
+.btn-small{
+    background: #f2f2f2;
+    border-color: #d9d9d9;
+    color: #3e3e3e;
+    font-size: .8rem;
+    padding: 4px;
+    border-radius: 3px;
